@@ -1,6 +1,6 @@
 import './GlobalStyles.scss';
 
-function GlobalStyles({ children }) {
+function GlobalStyles({ children }:{children:JSX.Element}) {
   return children;
 }
 

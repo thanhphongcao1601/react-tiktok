@@ -25,6 +25,11 @@
   }
 }
 
+.search,
+.search-result {
+  width: 361px;
+}
+
 .search {
   position: relative;
   display: flex;
@@ -63,6 +68,12 @@
   }
 }
 
+.search-title {
+  padding: 5px 12px;
+  font-size: 1.4rem;
+  color: rgba(22, 24, 35, 0.5);
+}
+
 .clear,
 .loading {
   position: absolute;
@@ -83,4 +94,8 @@
     background-color: rgba(22, 24, 35, 0.03);
     cursor: pointer;
   }
+}
+
+.custom-login {
+  color: red;
 }
